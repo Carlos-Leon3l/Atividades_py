@@ -1,14 +1,9 @@
-notas = [10, 5, 6, 9, 8]
-alunos = ['Carlos', "Dimitri", "Elias", "Fabricio", "Ronaldo"]
-
-soma_total  = 0
-for nota in notas:
-    soma_total += nota
-
-
-def calculo_media(soma, quantidade_alunos):
-    media = soma / quantidade_alunos
-    return media    
+def calcular_soma(notas):
+    soma_total = 0
+    for nota in notas:  
+        soma_total += nota
+    return soma_total
 
 
-print(calculo_media(soma_total, len(alunos)))
+def calcular_media(soma, quantidade_alunos):
+    return soma / quantidade_alunos

@@ -7,4 +7,3 @@ def verificar_numero(numero):
     return True
 
 
-print(verificar_numero(8))
